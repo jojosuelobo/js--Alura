@@ -1,0 +1,25 @@
+@import "../../styles/variaveis";
+
+.footer {
+    background-color: $azul-escuro;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &__icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        left: 15px;
+    }
+
+    &__texto{
+        font-family: "GandhiSansRegular";
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        right: 15px;
+    }
+}
